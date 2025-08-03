@@ -95,10 +95,12 @@ export default function Investment() {
                                 <p className="text-lg">+</p>
                             ) : (
                                 <>
-                                    <p className="mb-8">You need to submit your income first ...</p>
-                                    <PrimaryButton onClick={handleNavigateToIncome}>
-                                        Go to My Income
-                                    </PrimaryButton>
+                                    <p className="p-3">You need to submit your income first ...</p>
+                                    <div className="p-3">
+                                        <PrimaryButton onClick={handleNavigateToIncome}>
+                                            Go to My Income
+                                        </PrimaryButton>
+                                    </div>
                                 </>
                             )}
                         </div>
