@@ -7,7 +7,7 @@ export default defineConfig({
         host: '0.0.0.0',
         port: 5173,
         hmr: {
-            host: '192.168.1.3', // your local IP
+            host: '192.168.1.3', // your local IP Address
             protocol: 'ws',
             port: 5173,
         },
